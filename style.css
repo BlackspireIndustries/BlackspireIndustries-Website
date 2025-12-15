@@ -1,0 +1,47 @@
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  font-size: 0.9rem;
+  color: #ccc;
+  position: relative; /* ensures it stays below content */
+  margin-top: 100px;  /* gives space from the last box */
+  box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.6);
+}
+
+body {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+body {
+  padding-top: 80px;
+}
+    .tagline {
+      padding: 30px 60px;
+      margin-top: 200px;
+      text-align: center;
+      font-family: 'Inter', Inter;
+    }
+
+/* 3D SPINNING ANIMATION */
+@keyframes spin3D {
+  from { transform: rotateY(0deg) }
+  to { transform: rotateY(360deg) }
+}
+.spin3D { animation: spin3D 5s ease-in-out infinite; }
+
+
+
